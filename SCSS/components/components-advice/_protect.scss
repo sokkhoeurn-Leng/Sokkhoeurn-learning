@@ -1,0 +1,68 @@
+.page-header {
+  text-align: center;
+  padding: 1.5rem;
+
+}
+.page-header h1 {
+  font-size: 1.6rem;
+  color: #ffd166; /* golden heading */
+}
+.page-header p {
+  font-size: 0.95rem;
+  color: #b2b4b4;
+}
+.page-header .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.2rem;
+  background: #ffd166;
+  color: #000;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.page-header.btn:hover {
+  background: #ffbb33;
+}
+
+/* Main Container */
+.container {
+  padding: 1rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Card */
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1.2rem;
+  box-shadow: 1px 2px 4px rgba(114, 113, 113, 0.25);
+}
+.card h2 {
+  color: #ffd166;
+  margin-bottom: 0.8rem;
+  font-size: 0.9rem;
+}
+
+/* Accordion */
+.accordion details {
+  margin-bottom: 0.6rem;
+  background: black;
+  padding: 0.6rem;
+  border-radius: 8px;
+  box-shadow: 1px 2px gray;
+}
+.accordion summary {
+  font-weight: bold;
+  cursor: pointer;
+  color: #e2e5e5;
+  font-size: 0.8rem;
+}
+.accordion p {
+  font-size: 0.7rem;
+  margin: 0.4rem 0;
+  color: #b2b4b4;
+
+}

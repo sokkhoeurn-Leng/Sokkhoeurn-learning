@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/advice.css">
+</head>
+    <body>
+        <header>
+            <p class="logo">
+                <img src="../SCSS/components/components-home/img/logo.png"alt=""style="width: 70px" />
+                <b>Security Online</b>
+            </p>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./learning.html">Learning</a></li>
+                <li><a href="#" class="active">Advice</a></li>
+            </ul>
+        </header>
+        <div class="page-header">
+            <h1>Why Security Matters</h1>
+            <p>Stay safe online with clear steps and examples</p>
+            <p>Cybersecurity protects your money, identity and privacy. Small habits (strong passwords, updates, thinking before you click) stop most attacks.</p>
+            <p class="cta">➡️ Follow the steps below to make your accounts and devices safer.</p>
+            <a href="#protect" class="btn">Start the Quick Checklist</a>
+        </div>
+        <main class="container">
+            <section id="protect" class="card">
+                <h2>How to Protect</h2>
+                <div class="accordion">
+                    <details>
+                        <summary>1. Use strong, unique passwords</summary>
+                        <p><strong>How:</strong> Choose passphrases (3+ unrelated words) or use a password manager.</p>
+                        <p><strong>Do this now:</strong> Install a password manager and change one reused password.</p>
+                    </details>
+
+                    <details>
+                        <summary>2. Enable two-factor authentication (2FA)</summary>
+                        <p><strong>How:</strong> Use authenticator apps or hardware keys (avoid SMS if possible).</p>
+                        <p><strong>Do this now:</strong> Turn on 2FA for your email and social accounts.</p>
+                    </details>
+
+                    <details>
+                        <summary>3. Keep software up to date</summary>
+                        <p><strong>How:</strong> Enable automatic updates on phone/PC and apps.</p>
+                        <p><strong>Do this now:</strong> Check for system updates and install.</p>
+                    </details>
+
+                    <details>
+                        <summary>4. Recognize and avoid phishing</summary>
+                        <p><strong>How:</strong> Don’t click unknown links; hover to check URLs; verify sender.</p>
+                        <p><strong>Do this now:</strong> Take a screenshot and report suspicious links.</p>
+                    </details>
+
+                    <details>
+                        <summary>5. Secure networks</summary>
+                        <p><strong>How:</strong> Use WPA2/3 Wi-Fi with strong router password; avoid public Wi-Fi or use VPN.</p>
+                        <p><strong>Do this now:</strong> Change your router’s default password.</p>
+                    </details>
+
+                    <details>
+                        <summary>6. Lock & encrypt devices</summary>
+                        <p><strong>How:</strong> Enable device passcodes, biometrics, and disk encryption.</p>
+                        <p><strong>Do this now:</strong> Turn on screen lock with PIN or biometric.</p>
+                    </details>
+
+                    <details>
+                        <summary>7. Back up important data</summary>
+                        <p><strong>How:</strong> Use encrypted cloud or offline backups.</p>
+                        <p><strong>Do this now:</strong> Create a backup of your most important files.</p>
+                    </details>
+
+                    <details>
+                        <summary>8. Limit what you share on social media</summary>
+                        <p><strong>How:</strong> Remove sensitive info (phone, address, birthdays).</p>
+                        <p><strong>Do this now:</strong> Review privacy settings and remove one risky post.</p>
+                    </details>
+
+                    <details>
+                        <summary>9. Review app permissions & connected apps</summary>
+                        <p><strong>How:</strong> Revoke access for apps you no longer use.</p>
+                        <p><strong>Do this now:</strong> Remove one suspicious app.</p>
+                    </details>
+
+                    <details>
+                        <summary>10. Teach others & report incidents</summary>
+                        <p><strong>How:</strong> Share guidance with family; report fraud to platforms.</p>
+                        <p><strong>Do this now:</strong> Forward this checklist to a friend.</p>
+                    </details>
+                </div>
+            </section>
+            <section class="card">
+                <h2>Real Social Media Examples</h2>
+                <div class="example">
+                    <p><strong>Phishing DM:</strong> “Urgent: Your account will be closed. Click here to verify: http://bit.ly/verify-now”</p>
+                    <p>⚠️ Red flags: urgent tone, short link.</p>
+                    <p>✅ Action: Don’t click. Screenshot & report.</p>
+                </div>
+
+                <div class="example">
+                    <p><strong>Fake Friend Request:</strong> “Hi, I lost my old account — send me $50?”</p>
+                    <p>⚠️ Red flags: money request, new account.</p>
+                    <p>✅ Action: Verify offline, don’t send money.</p>
+                </div>
+
+                <div class="example">
+                    <p><strong>Clickbait Link:</strong> “Wow this video of you is everywhere! http://short.link”</p>
+                    <p>⚠️ Red flags: unexpected tag, short link.</p>
+                    <p>✅ Action: Ignore, delete, report.</p>
+                </div>
+            </section>
+            <section id="contact" class="card">
+                <h2>Report a Problem</h2>
+                <form class="contact-form">
+                    <label>Your Name (optional)</label>
+                    <input type="text" placeholder="Your name">
+
+                    <label>Email *</label>
+                    <input type="email" placeholder="you@example.com" required>
+
+                    <label>Platform</label>
+                    <select>
+                        <option>Facebook</option>
+                        <option>Instagram</option>
+                        <option>Twitter</option>
+                        <option>Other</option>
+                    </select>
+
+                    <label>Account / Username</label>
+                    <input type="text" placeholder="@username">
+
+                    <label>Suspicious URL or Screenshot</label>
+                    <input type="url" placeholder="Paste link here">
+                    <input type="file">
+
+                    <label>Description</label>
+                    <textarea rows="4" placeholder="Describe what happened..."></textarea>
+
+                    <label>Date/Time</label>
+                    <input type="datetime-local">
+
+                    <label><input type="checkbox"> I want a follow-up</label>
+
+                    <button type="submit">Send Report</button>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>

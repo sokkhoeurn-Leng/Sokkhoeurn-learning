@@ -1,0 +1,34 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form label {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  background-color: #000;
+  color: rgb(240, 242, 243);
+  padding: 0.6rem;
+  border: none;
+  border-radius: 6px;
+  margin-top: 0.3rem;
+  box-shadow: 1px 2px 4px gray;
+}
+.contact-form button {
+  margin-top: 1rem;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 6px;
+  background: #ffd166;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.contact-form button:hover {
+  background: #ffc04c;
+}
