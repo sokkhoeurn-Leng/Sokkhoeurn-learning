@@ -1,10 +1,9 @@
 .hero {
+    background: linear-gradient(to right bottom,rgba(94, 176, 190, 0.406), rgba(0, 0, 0, 0.93));
     background-size: cover;
-    width: 94%;
+    width: 100%;
     text-align: center;
     padding: 5rem 2rem;
-    background: linear-gradient(to right bottom,rgba(15, 39, 44, 0.842), rgba(20, 21, 21, 0.93)),
-    url(/SCSS/components/components-home/img/bg.png) center/cover no-repeat;
 
 }
 

@@ -1,8 +1,14 @@
 .example {
-  background: #131313;
+  background: #131313b1;
   padding: 0.8rem;
   border-radius: 8px;
   margin-bottom: 0.8rem;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   box-shadow: 1px 1px 3px gray;
+}
+.example p{
+  color: #b2b4b4;
+}
+.example p strong{
+  color: white;
 }

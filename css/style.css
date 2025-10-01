@@ -6,11 +6,38 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #0d1117;
+  background-color: black;
   color: #e6edf3;
   line-height: 1.6;
 }
 
+.slideshow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* behind your content */
+  overflow: hidden;
+}
+
+.slideshow img {
+  width: 100%;
+  max-width: 1500px;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  animation: fadeInOut 0s infinite;
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
 /* Navigation */
 header {
   padding: 10px;
@@ -18,7 +45,7 @@ header {
   z-index: 99;
   top: 0;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background: linear-gradient(to left top, black, teal);
+  background: linear-gradient(to right bottom, rgba(58, 93, 95, 0.18), rgba(35, 39, 39, 0.363));
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -61,7 +88,6 @@ header {
 .footer {
   text-align: center;
   padding: 2rem;
-  background-color: #0d1117;
   margin-top: 2rem;
   font-size: 0.9rem;
   width: 1155px;
@@ -76,11 +102,11 @@ header {
   }
 }
 .hero {
+  background: linear-gradient(to right bottom, rgba(94, 176, 190, 0.406), rgba(0, 0, 0, 0.93));
   background-size: cover;
-  width: 94%;
+  width: 100%;
   text-align: center;
   padding: 5rem 2rem;
-  background: linear-gradient(to right bottom, rgba(15, 39, 44, 0.842), rgba(20, 21, 21, 0.93)), url(/SCSS/components/components-home/img/bg.png) center/cover no-repeat;
 }
 
 .hero h2 {
@@ -164,7 +190,7 @@ h2 {
 }
 
 .intro {
-  background: #0a1017;
+  background: rgba(10, 16, 23, 0.4352941176);
   padding: 10px;
   margin: 10px;
   display: flex;
@@ -188,12 +214,20 @@ h2 {
 }
 
 .briefoverview {
-  background-color: #ffffff;
+  background: rgba(14, 14, 14, 0.87);
   padding: 25px 30px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   max-width: 900px;
   margin: auto;
+}
+
+.ct {
+  background: rgba(30, 31, 31, 0.6352941176);
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 2px 2px 6px rgb(76, 73, 73);
 }
 
 ul {

@@ -49,7 +49,7 @@
 /* Accordion */
 .accordion details {
   margin-bottom: 0.6rem;
-  background: black;
+  background: rgba(0, 0, 0, 0.482);
   padding: 0.6rem;
   border-radius: 8px;
   box-shadow: 1px 2px gray;
@@ -58,11 +58,20 @@
   font-weight: bold;
   cursor: pointer;
   color: #e2e5e5;
-  font-size: 0.8rem;
+  font-size: 0.91rem;
 }
 .accordion p {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   margin: 0.4rem 0;
   color: #b2b4b4;
 
+}
+
+@media (max-width: 480px){
+  .accordion summary{
+    font-size: 0.8rem;
+  }
+  .accordion p{
+    font-size: 0.7rem;
+  }
 }
