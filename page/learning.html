@@ -119,18 +119,18 @@
                         <div class="course-meta">
                             <span>Lesson 1</span> ·
                             <span>4 mains</span> ·
-                            <a class="view-link" href="">View Lesson</a>
+                            <a class="view-link" href="#lesson1">View Lesson</a>
                         </div>
                     </div>
                 </div>
-                <div class="course-card">
+                <div class="course-card" id="learning">
                     <img src="../SCSS/components/components-learning/img/img2.png" alt="Course 2" class="course-thumb">
                     <div class="course-content">
                         <div class="course-title">Web Application Vulnerabilities</div>
                         <div class="course-meta">
                             <span>Lesson 2</span> ·
                             <span>5 mains</span> ·
-                            <a class="view-link" href="#">View Lesson</a>
+                            <a class="view-link" href="#lesson2">View Lesson</a>
                         </div>
                     </div>
                 </div>
@@ -141,7 +141,7 @@
                         <div class="course-meta">
                             <span>Lesson 3</span> ·
                             <span>6 mains</span> ·
-                            <a class="view-link" href="#">View Lesson</a>
+                            <a class="view-link" href="#lesson3">View Lesson</a>
                         </div>
                     </div>
                 </div>
@@ -152,7 +152,7 @@
                         <div class="course-meta">
                             <span>Lesson 4</span> ·
                             <span>3 mains</span> ·
-                            <a class="view-link" href="#">View Lesson</a>
+                            <a class="view-link" href="#lesson4">View Lesson</a>
                         </div>
                 </div>
                 </div>
@@ -163,15 +163,28 @@
                         <div class="course-meta">
                             <span>Lesson 5</span> ·
                             <span>7 mains</span> ·
-                            <a class="view-link" href="#">View Lesson</a>
+                            <a class="view-link" href="#lesson5">View Lesson</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <img src="../SCSS/components/components-learning/img/vedeo.png" alt="Course 5" class="course-thumb">
+                    <div class="course-content">
+                        <div class="course-title">Security video learning</div>
+                        <div class="course-meta">
+                            <span>video</span> ·
+                            <span>21 video</span> ·
+                            <a class="view-link" href="#allvideo">View video</a>
                         </div>
                     </div>
                 </div>
             </div>
-        <div class="headers">
-            <h1><strong>🛡️ Lesson1: </strong>Fundamentals of Cybersecurity</h1>
-            <p>Core principles, components, stages, threats, and countermeasures for protecting digital systems.</p>
-        </div>
+        <section id="lesson1">
+            <div class="headers">
+                <h1><strong>🛡️ Lesson1: </strong>Fundamentals of Cybersecurity</h1>
+                <p>Core principles, components, stages, threats, and countermeasures for protecting digital systems.</p>
+            </div>
+        </section>
         <div class="container">
             <div class="cards">
                 <h2>Key Principles</h2>
@@ -273,10 +286,12 @@
                 </ul>
             </div>
         </div>
-        <div class="headers">
-            <h1><strong>🌐 Lesson2: </strong>Introduction to Web Application Vulnerabilities</h1>
-            <p>Understand common vulnerabilities, risks, and prevention strategies</p>
-        </div>
+        <section id="lesson2">
+            <div class="headers">
+                <h1><strong>🌐 Lesson2: </strong>Introduction to Web Application Vulnerabilities</h1>
+                <p>Understand common vulnerabilities, risks, and prevention strategies</p>
+            </div>
+        </section>
         <div class="container">
             <div class="cards">
                 <h2>1. Learning Objectives</h2>
@@ -356,10 +371,12 @@
                 <p><em>Answer: SQL Injection, prevented by parameterized queries.</em></p>
             </div>
         </div>
-        <div class="headers">
-            <h1><strong>🔑 Lesson3:</strong> Authentication and Access Control</h1>
-            <p>Core concepts, methods, risks, and best practices for protecting digital systems</p>
-        </div>
+        <section id="lesson3">
+            <div class="headers">
+                <h1><strong>🔑 Lesson3:</strong> Authentication and Access Control</h1>
+                <p>Core concepts, methods, risks, and best practices for protecting digital systems</p>
+            </div>
+        </section>
         <div class="container">
             <div class="cards">
                 <h2>1. Learning Objectives</h2>
@@ -432,10 +449,12 @@
                 <p><strong>Answer:</strong> Violated principle: Least Privilege / Account Management. Control: Timely removal of access rights (deprovisioning).</p>
             </div>
         </div>
-        <div class="headers">
-            <h1><strong>🔒 Lesson4:</strong> Encryption and HTTPS</h1>
-            <p>Understanding encryption, HTTPS, risks, and best practices for secure communication</p>
-        </div>
+        <section id="lesson4">
+            <div class="headers">
+                <h1><strong>🔒 Lesson4:</strong> Encryption and HTTPS</h1>
+                <p>Understanding encryption, HTTPS, risks, and best practices for secure communication</p>
+            </div>
+        </section>
         <div class="container">
             <div class="cards">
                 <h2>1. Learning Objectives</h2>
@@ -508,11 +527,12 @@
                 Mitigation: Use HTTPS to encrypt traffic, store passwords hashed with a strong algorithm (e.g., bcrypt), and ensure TLS certificates are valid and up-to-date.</p>
             </div>
         </div>
-
-        <div class="headers">
-            <h1><strong>🛡️ Lesson5:</strong> Security Tools and Testing</h1>
-            <p>Understanding tools and methods to identify vulnerabilities and secure systems</p>
-        </div>
+        <section id="lesson5">
+            <div class="headers">
+                <h1><strong>🛡️ Lesson5:</strong> Security Tools and Testing</h1>
+                <p>Understanding tools and methods to identify vulnerabilities and secure systems</p>
+            </div>
+        </section>
         <div class="container">
             <div class="cards">
                 <h2>1. Learning Objectives</h2>
@@ -620,10 +640,12 @@
             </div>
 
         </div>
-        <div class="headers">
-            <h1>Cybersecurity video Learning </h1>
-            <p>Watch and learn the fundamentals of cybersecurity with these 9 essential videos</p>
-        </div>
+        <section id="allvideo">
+            <div class="headers">
+                <h1>Cybersecurity video Learning </h1>
+                <p>Watch and learn the fundamentals of cybersecurity with these 9 essential videos</p>
+            </div>
+        </section>
         <section class="video-grid">
             <div class="cardv"><iframe src="https://www.youtube.com/watch?v=cOI-a5vWzYs" allowfullscreen></iframe><div class="content"><h3>Fundamentals of Cybersecurity</h3><p>Introduction to key cybersecurity concepts for beginners.</p></div></div>
             <div class="cardv"><iframe src="https://www.youtube.com/watch?v=nG9v3RSSXTo" allowfullscreen></iframe><div class="content"><h3>Types of Cyber Threats</h3><p>Understand common cyber threats and how they affect security.</p></div></div>
@@ -647,7 +669,7 @@
             <div class="cardv"><iframe src="https://www.youtube.com/watch?v=XsdUV0iiiWY" allowfullscreen></iframe><div class="content"><h3>IoT Security Risks</h3><p>Security risks in Internet of Things (IoT) devices.</p></div></div>
             <div class="cardv"><iframe src="https://www.youtube.com/watch?v=N3-zrhoBx6w" allowfullscreen></iframe><div class="content"><h3>Dark Web Explained</h3><p>What the dark web is and its role in cybercrime.</p></div></div>
             <div class="cardv"><iframe src="https://www.youtube.com/watch?v=mMXdpXouSLo" allowfullscreen></iframe><div class="content"><h3>Data Privacy Essentials</h3><p>Learn about protecting personal data and GDPR basics.</p></div></div>
-            <div class="cardv"><iframe src="https://www.youtube.com/watch?v=mMXdpXouSLo" allowfullscreen></iframe><div class="content"><h3>Data Privacy Essentials</h3><p>Learn about protecting personal data and GDPR basics.</p></div></div>
+            <div class="cardv"><iframe src="https://youtu.be/HwdFfav3LI4" allowfullscreen></iframe><div class="content"><h3>Data Privacy Essentials</h3><p>Learn about protecting personal data and GDPR basics.</p></div></div>
         </section>   
     </body>
 </html>
