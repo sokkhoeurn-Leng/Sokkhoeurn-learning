@@ -10,7 +10,7 @@
 .contact-form input,
 .contact-form select,
 .contact-form textarea {
-  background-color: #00000084;
+  background-color: #000000b6;
   color: rgb(240, 242, 243);
   padding: 0.6rem;
   border: none;
@@ -23,12 +23,12 @@
   padding: 0.8rem;
   border: none;
   border-radius: 6px;
-  background: #ffd1669d;
-  color: #000;
+  background-color: #28a745;
+  color: #ffffff;
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
 }
 .contact-form button:hover {
-  background: #ffc04c;
+  background: #56eb74;
 }

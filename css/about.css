@@ -99,6 +99,7 @@ body {
   background-size: cover;
   background-position: center;
   animation: fadeInOut 0s infinite;
+  filter: blur(2px);
 }
 
 @keyframes fadeInOut {
@@ -111,7 +112,7 @@ body {
 }
 /* Navigation */
 header {
-  padding: 10px;
+  padding: 23px;
   position: sticky;
   z-index: 99;
   top: 0;
@@ -163,8 +164,17 @@ header {
   padding: 10px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(141, 140, 140, 0.3);
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeUp 3s ease forwards;
 }
 
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .about h1 {
   font-size: 2rem;
   text-align: center;

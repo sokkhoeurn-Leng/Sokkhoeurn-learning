@@ -12,7 +12,17 @@ body {
       text-align: center;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       text-shadow: 1px 1px 4px gray;
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeUp 3s ease forwards;
     }
+    @keyframes fadeUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
     .headers strong{
       color: #e7ba33;
     }
