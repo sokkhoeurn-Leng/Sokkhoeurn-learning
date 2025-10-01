@@ -103,15 +103,16 @@ header {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.8rem 1.2rem;
-  background: #ffd166;
+  background: #f5c554;
   color: #000;
-  border-radius: 8px;
+  border-radius: 15px;
   font-weight: bold;
   text-decoration: none;
+  box-shadow: 1px 2px 4px gray;
 }
 
-.page-header.btn:hover {
-  background: #ffbb33;
+.btn:hover {
+  background: #f7ad19;
 }
 
 /* Main Container */
@@ -133,7 +134,7 @@ header {
 .card h2 {
   color: #ffd166;
   margin-bottom: 0.8rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 /* Accordion */
