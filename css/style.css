@@ -91,15 +91,16 @@ header {
   padding: 2rem;
   margin-top: 2rem;
   font-size: 0.9rem;
-  width: 1155px;
 }
 
 @media (max-width: 480px) {
-  .footer {
-    width: 85%;
-  }
   .footer p {
     font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .footer p {
+    font-size: 0.8rem;
   }
 }
 .hero {
@@ -162,6 +163,11 @@ header {
   }
   .hero p {
     font-size: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    width: 88%;
   }
 }
 nav {
