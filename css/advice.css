@@ -222,7 +222,7 @@ header {
   padding: 0.8rem;
   border: none;
   border-radius: 6px;
-  background-color: #28a745;
+  background: rgba(86, 235, 116, 0.5411764706);
   color: #ffffff;
   font-weight: bold;
   cursor: pointer;
@@ -230,5 +230,5 @@ header {
 }
 
 .contact-form button:hover {
-  background: #56eb74;
+  background: #15a531;
 }/*# sourceMappingURL=advice.css.map */
