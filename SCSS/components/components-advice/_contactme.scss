@@ -1,0 +1,119 @@
+
+    
+    /* Card */
+    .profile-card{
+      width:80%;
+      border-radius:var(--radius);
+      box-shadow:0 10px 30px rgba(12,20,40,0.08);
+      overflow:hidden;
+      display: flex;
+      padding: 20px 30px;
+      flex-direction: row;
+      margin-left: 70px;
+
+    }
+    /* Info column */
+    .profile-info{
+        padding:28px 30px;
+        background-color: rgba(4, 90, 90, 0);
+        
+    }
+    .name{
+        font-size:28px;
+        font-weight:700;
+        margin:0}
+    .role{
+        color:var(--muted);
+        margin-top:-6px;
+    }
+
+    .contact-list{
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+        margin-top:8px;
+    }
+    .contact-item{
+        display:flex;
+        align-items:center;
+        gap:12px;
+        border-radius:10px;
+        border:none
+    }
+    .contact-item a{
+        display:inline-flex;
+        align-items:center;
+        gap:10px;
+        text-decoration:none;
+        color:inherit;
+    }
+    .contact-item svg{
+        width:30px;
+        height:20px;
+        flex-shrink:0;
+    }
+    .contact-label{
+        font-weight:600;
+    }
+    .contact-meta{
+        color:var(--muted);
+        font-size:12px;
+    }
+
+    .bio{
+        color:#eaf3f4;
+        line-height:1.45;
+        font-size: 13px;
+    }
+
+    .actions{
+        margin-top:auto;
+        display:flex;
+        gap:10px}
+    .btn{
+        padding:10px 14px;
+        border-radius:10px;
+        border:none;
+        background:var(--accent);
+        color:#fff;
+        font-weight:600;
+        cursor:pointer}
+    .btn{
+        margin: 20px;
+        background:transparent;
+        border:1px solid #dbeafe;color:var(--accent)}
+    @media (max-width:480px){
+        .profile-card{
+            width:84%;
+            overflow:hidden;
+            display: flex;
+            padding: 10px 10px;
+            flex-direction: column-reverse;
+            margin-left: 20px;
+        }
+    }
+        
+    @media (max-width:768px){
+         .profile-card{
+            width:90%;
+            overflow:hidden;
+            display: flex;
+            padding: 10px 10px;
+            margin-left: 20px;
+        }
+       .contact-meta{
+        font-size: 10px;
+       }
+       .bio{
+        font-size: 10px;
+       }
+       .name{
+        font-size: 15px;
+       }
+       .contact-meta{
+        font-size: 10px;
+       }
+       .btn{
+        padding: 6px 10px;
+       }
+    }
